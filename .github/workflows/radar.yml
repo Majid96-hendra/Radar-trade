@@ -23,5 +23,5 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          TIMEFRAME: "1H"
+          TIMEFRAME: "15m"
           TOP_N: "30"
